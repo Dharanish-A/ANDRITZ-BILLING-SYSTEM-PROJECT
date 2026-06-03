@@ -1,0 +1,1 @@
+function t(e,r="INR"){return new Intl.NumberFormat("en-IN",{style:"currency",currency:r,maximumFractionDigits:0}).format(Number(e??0))}function n(e){return e?new Intl.DateTimeFormat("en-IN",{dateStyle:"medium"}).format(new Date(e)):"-"}export{t as c,n as s};
